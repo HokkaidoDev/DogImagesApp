@@ -61,7 +61,6 @@ public class MainActivity extends AppCompatActivity {
         viewModel.getDogImage().observe(this, new Observer<DogImage>() {
             @Override
             public void onChanged(DogImage dogImage) {
-                //Log.d(TAG, dogImage.toString());
                 Glide.with(MainActivity.this)
                         .load(dogImage.getMessage())
                         .into(imageViewDog);
