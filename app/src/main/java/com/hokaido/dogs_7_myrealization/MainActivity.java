@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
-
+        
         viewModel.getIsLoading().observe(this, new Observer<Boolean>() {
             @Override
             public void onChanged(Boolean loading) {
