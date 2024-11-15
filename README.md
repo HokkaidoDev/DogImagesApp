@@ -1,5 +1,5 @@
 # DogImagesApp
-### If you want to look at funny dog pictures, you are welcome to use this app. One button, one click = funny dog images.
+### If you want to look at funny dog pictures, you are welcome to use this app. One button, one click = a funny dog image.
 In this application, I use:
 * MVVM
 * RxJava
